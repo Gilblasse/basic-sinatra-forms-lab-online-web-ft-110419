@@ -5,9 +5,9 @@
   <title>Basketball Team</title>
  </head>
  <body>
+
    <%labels = ['Coach','Point Guard','Shooting Guard','Small Forward', 
               'Power Forward','Center'
-              ] 
     %>
     
     <h1><%= "Team Name: #{@new_team[0]}"%></h1>
@@ -16,6 +16,7 @@
         <%= "#{row.first}: #{row.last}" %>
       </h2>
     <%end%>
+    
     
  </body>
 </html>
